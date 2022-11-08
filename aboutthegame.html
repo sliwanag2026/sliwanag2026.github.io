@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <title> Geometry Dash</title>
+        <style>
+            #header{
+                background-image: url('https://preview.redd.it/6yzfwmp85i391.png?auto=webp&s=59b018835b86ceefd383245a7747ad57a886d26c');
+                background-position: center;
+                background-size: cover;
+                height: 100px;
+                color: lime;
+            }
+            #pagetitle{
+                padding-left: 10px;
+                padding-top: 10px;
+                font-family: Bebas Neue;
+            }
+            body{
+                margin: 0;
+            }
+            #content{
+                background-image: url(https://i.ytimg.com/vi/MQVvbcIf0Es/maxresdefault.jpg);
+                background-position: center;
+                background-size: cover;
+                padding-top: 100px;
+                height: 1000px;
+
+            }
+            #fakecontent{
+                margin-left: 100px;
+                margin-right: 100px;
+                margin-bottom: 100px;
+                height: 900px;
+            }
+            #realcontent{
+                background-color: rgba(0, 0, 0, 0.5);
+                color: white;
+                height: 900px;
+                border: solid;
+                border-color: black;
+            }
+            .text{
+                margin-left: 10px;
+                margin-right: 10px;
+                font-family: sans-serif;
+            }
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+            }
+            ul li{
+                float: left;
+            }
+            ul li a{
+                display:block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            #youtubevid1{
+                margin-left: 50px;
+                margin-top: 10px;
+            }
+            #dosimage{
+                margin-top: 10px;
+                height: 250px;
+                margin-left: 100px; 
+            }
+            #unoimage{
+                margin-top: 10px;
+                height: 250px;
+                margin-left: 100px;
+            }
+            .left{
+                float: left;
+                width: 50%;
+            }
+            .right{
+                float: right;
+                width: 50%;
+            }
+            #footer{
+                border-color: lime;
+                border-top: dashed;
+                background-image: url('https://preview.redd.it/6yzfwmp85i391.png?auto=webp&s=59b018835b86ceefd383245a7747ad57a886d26c');
+                background-position: center;
+                background-size: cover;
+                color: lime;                
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <div id="pagetitle">
+                <h1>About the Game</h1>
+            </div>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html"> Homepage </a></li>
+                <li><a href="aboutthegame.html"> About the Game </a></li>
+                <li><a href="levels.html"> Levels </a></li>
+                <li><a href="community.html"> Community </a></li>
+                <li><a href="gdeditor.html"> GD Editor</a></li>
+                <li><a href="aboutme.html"> About the Author </a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <div id="fakecontent">
+                    <div id="realcontent">
+                        <div class="left">
+                            <div class="text">
+                                <h1> About the Game</h1>
+                                <h3> Geometry Dash is a series of five video games developed by Sweden-based developer Robert Topala, 
+                                and published by his company, RobTop Games. The principal game, Geometry Dash, it is a rhythm-based 
+                                platforming game which currently has 21 official levels and has more than 40 million online levels made 
+                                by players.</h3>
+                            </div>
+                        </div>
+                        <div class="left">
+                            <img id="unoimage" src="gdstartmenu.png" alt="Hi">
+                        </div>
+                        <div class="right">
+                            <div class="text">
+                                <br>
+                                <br>
+                                <h1> Features </h1>
+                                <h3> 1. Levels of difficulty ranging from tough to almost impossible.</h3>
+                                <h3> 2. The game's simple controls make it easy to understand right from the beginning.</h3>
+                                <h3> 3. Excellent music that push you to continue to the next section of the tune. Interesting gameplay that is linked to the rhythm.</h3>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <iframe id="youtubevid1" width="500" height="300" src="https://www.youtube.com/embed/ELeCcv11zXE">                        
+                            </iframe>
+                        </div>
+                        <div class="left">
+                            <div class="text">
+                                <br>
+                                <h1> How To Play</h1>
+                                <h3> The player controls the block's movement via input in the form of a press or hold, with the objective of finishing a level by reaching its end point. 
+                                    If the player causes a collision with an obstruction, the level will begin again from the beginning. The only exception to this rule is the practice mode,
+                                    in which the user may add checkpoints to inspect or train the level without it being officially finished. 
+                                    The timing and rhythm of the music in the game are key aspects of the game that are often linked.</h3>
+                            </div>
+                        </div>
+                        <div class="left">
+                            <img id="dosimage" src="gdhowtoplay.png" alt="Hi">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div id="footer">
+            <br>
+            <p> Copyright &copy; 2022. Sheldon. All Rights Reserved.</p>
+            <br>
+        </div>
+    </body> 
+</html>   
